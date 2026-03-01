@@ -6,6 +6,7 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
 
+
 acccounts = int(len(sys.argv[1:])/2)
 print(f'Config {acccounts} accounts')
 for i in range(acccounts):
