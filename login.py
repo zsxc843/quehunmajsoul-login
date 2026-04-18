@@ -23,6 +23,7 @@ for i in range(acccounts):
     print(f'Account {i+1} loading game...')
     sleep(20)
 
+    
     #2.input email
     screen = driver.find_element(By.ID, 'layaCanvas')
     ActionChains(driver)\
